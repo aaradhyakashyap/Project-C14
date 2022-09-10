@@ -68,10 +68,10 @@ function draw() {
   
   if (arrowGroup.isTouching(redB)) {
     
-    //redB.destroyEach();
+    redB.destroyEach();
     //redB.destroy();
     //redB.Each();
-    //ballon.destroyEach();
+    
     
     arrowGroup.destroyEach();
     score=score+1;
@@ -149,6 +149,6 @@ function pinkBalloon() {
   //arrowGroup.addGroup(arrow);
   //arrow.add(arrowGroup);
   //arrowGroup.add();
-  //arrowGroup.add(arrow);
+  arrowGroup.add(arrow);
    
 }
